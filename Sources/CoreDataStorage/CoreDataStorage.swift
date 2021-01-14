@@ -7,6 +7,8 @@
 
 import CoreData
 
+// MARK: - This emplementation of Core Data Stack is not testable because it produces multiple contexts
+
 @available(OSX 10.15, *)
 @available(iOS 13.0, *)
 public final class StorageProvider: ObservableObject {
